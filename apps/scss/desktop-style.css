@@ -1,0 +1,212 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+html h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid, .row, .nav {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+body #mobile-img {
+  display: none;
+}
+
+body #sec-font {
+  font-family: "Fraunces", serif;
+}
+
+body header .position-absolute {
+  position: absolute;
+}
+
+body header .first {
+  padding-top: 2.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+body header .first .menu ul {
+  list-style: none;
+}
+
+body header .first .menu ul li {
+  padding-left: 3rem;
+  display: inline-block;
+}
+
+body header .first .menu ul li #list-font {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+body header .first .menu ul li #contact {
+  font-family: "Fraunces", serif;
+  padding: 16px 24px;
+  background-color: white;
+  font-size: 0.9rem;
+  border-radius: 50px;
+  margin-top: 2rem;
+}
+
+body header .first .menu ul li #contact:hover {
+  background-color: rgba(188, 234, 255, 0.49);
+  color: white;
+}
+
+body header .second {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+}
+
+body header .second h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  letter-spacing: 12px;
+}
+
+body main .intro .catchphrase {
+  text-align: left;
+}
+
+body main .intro .catchphrase .subtitle {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+body main .intro .catchphrase #paragraph {
+  color: darkgray;
+  font-size: 1rem;
+}
+
+body main .intro .learnmore {
+  font-size: 1rem;
+  color: black;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-decoration-thickness: 6px;
+  text-underline-offset: -0.15em;
+}
+
+body main .intro .yellow {
+  -webkit-text-decoration-color: #fefea4;
+          text-decoration-color: #fefea4;
+}
+
+body main .intro .yellow:hover {
+  -webkit-text-decoration-color: #f9f92c;
+          text-decoration-color: #f9f92c;
+}
+
+body main .intro .pink {
+  -webkit-text-decoration-color: rgba(252, 177, 189, 0.5);
+          text-decoration-color: rgba(252, 177, 189, 0.5);
+}
+
+body main .intro .pink:hover {
+  -webkit-text-decoration-color: #ff6982;
+          text-decoration-color: #ff6982;
+}
+
+body main .content .position-relative {
+  position: relative;
+}
+
+body main .content .position-absolute {
+  position: absolute;
+  top: 70%;
+}
+
+body main .content .position-absolute .subtitle {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 1.50rem;
+}
+
+body main .content .position-absolute #description {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-top: 1.5rem;
+  width: 55%;
+}
+
+body main .testimonials .first {
+  padding-top: 80px;
+}
+
+body main .testimonials .first h5 {
+  letter-spacing: 5px;
+  color: darkgray;
+  font-weight: 900;
+}
+
+body main .testimonials .second, body main .testimonials .third {
+  padding: 0px 80px 40px 80px;
+}
+
+body main .testimonials .client {
+  padding: 0px 15px;
+}
+
+body main .testimonials #client-review {
+  color: #787878;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  font-weight: 700;
+}
+
+body main .testimonials #client-name {
+  font-family: "Fraunces", serif;
+  color: #00234b;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+body main .testimonials #client-position {
+  font-size: 0.85rem;
+  color: #b9b9b9;
+}
+
+body footer {
+  background-color: #7bccbb;
+  margin: 0;
+}
+
+body footer .links {
+  color: #458c7e;
+  font-size: 0.8rem;
+}
+
+body footer .links :hover {
+  color: white;
+}
+/*# sourceMappingURL=desktop-style.css.map */

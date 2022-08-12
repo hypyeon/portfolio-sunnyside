@@ -1,0 +1,27 @@
+$primaryFont : 'Barlow', sans-serif;
+$secondaryFont : 'Fraunces', serif;
+
+@mixin noMargin {
+    margin: 0;
+    padding: 0;
+    
+}
+
+@mixin fullImage {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: relative;
+}
+
+@mixin defaultText {
+    text-decoration: none;
+    color: black;
+}
+
+@mixin clientReview {
+    color: darkgray;
+    letter-spacing: 1.8;
+
+}
+

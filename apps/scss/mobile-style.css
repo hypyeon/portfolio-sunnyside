@@ -1,0 +1,296 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+html h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid, .row, .nav {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body #desktop-img {
+  display: none;
+}
+
+body #sec-font {
+  font-family: "Fraunces", serif;
+}
+
+body header .position-absolute {
+  position: absolute;
+}
+
+body header .first {
+  padding: 2rem 2rem 0 2rem;
+}
+
+body header .first .menu {
+  visibility: hidden;
+  width: 88%;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+}
+
+body header .first .menu #info {
+  padding-top: 1.5rem;
+  padding-bottom: 0.7rem;
+}
+
+body header .first .menu #contact-bttn {
+  padding-bottom: 2.5rem;
+}
+
+body header .first .menu ul {
+  list-style: none;
+  text-align: center;
+}
+
+body header .first .menu ul li {
+  padding: 0.8rem;
+}
+
+body header .first .menu ul li #list-font {
+  color: darkgray;
+  font-size: 1.1rem;
+}
+
+body header .first .menu ul li #projects {
+  margin-bottom: 1.5rem;
+}
+
+body header .first .menu ul li #contact {
+  font-family: "Fraunces", serif;
+  padding: 16px 24px;
+  background-color: #fadc14;
+  font-size: 0.85rem;
+  border-radius: 50px;
+  margin-top: 2rem;
+}
+
+body header .first .menu .menu:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid #ffffff;
+  border-bottom: 13px solid transparent;
+  margin: -13px 0 0 90px;
+}
+
+body header .first .hamburger:hover .menu {
+  visibility: visible;
+  width: 88%;
+  background-color: white;
+  z-index: 1;
+  top: 100px;
+  position: absolute;
+  left: 6%;
+}
+
+body header .first .hamburger:hover .menu #info {
+  padding-top: 1.5rem;
+  padding-bottom: 0.7rem;
+}
+
+body header .first .hamburger:hover .menu #contact-bttn {
+  padding-bottom: 2.5rem;
+}
+
+body header .first .hamburger:hover .menu ul {
+  list-style: none;
+  text-align: center;
+}
+
+body header .first .hamburger:hover .menu ul li {
+  padding: 0.8rem;
+}
+
+body header .first .hamburger:hover .menu ul li #list-font {
+  color: darkgray;
+  font-size: 1.1rem;
+}
+
+body header .first .hamburger:hover .menu ul li #projects {
+  margin-bottom: 1.5rem;
+}
+
+body header .first .hamburger:hover .menu ul li #contact {
+  font-family: "Fraunces", serif;
+  padding: 16px 24px;
+  background-color: #fadc14;
+  font-size: 0.85rem;
+  border-radius: 50px;
+  margin-top: 2rem;
+}
+
+body header .first .hamburger:hover .menu:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 26px solid transparent;
+  border-right: 26px solid #ffffff;
+  border-bottom: 0px solid transparent;
+  margin: -26px 0 0 139px;
+}
+
+body header .second {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+body header .second h1 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 8px;
+  line-height: 1.4;
+}
+
+body header .second img {
+  padding-top: 40px;
+}
+
+body main .intro p, body main .intro h2 {
+  margin: 0;
+}
+
+body main .intro .catchphrase {
+  padding: 5rem 2rem;
+}
+
+body main .intro .subtitle {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+body main .intro #paragraph {
+  color: darkgray;
+}
+
+body main .intro .learnmore {
+  color: black;
+  font-weight: 900;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  text-decoration-thickness: 6px;
+  text-underline-offset: -0.15em;
+}
+
+body main .intro .yellow {
+  -webkit-text-decoration-color: #fdfdbc;
+          text-decoration-color: #fdfdbc;
+}
+
+body main .intro .pink {
+  -webkit-text-decoration-color: rgba(252, 177, 189, 0.5);
+          text-decoration-color: rgba(252, 177, 189, 0.5);
+}
+
+body main .content .position-relative {
+  position: relative;
+}
+
+body main .content .position-absolute {
+  position: absolute;
+  top: 65%;
+}
+
+body main .content .position-absolute .subtitle {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+body main .content .position-absolute #description {
+  line-height: 1.6;
+}
+
+body main .testimonials {
+  padding-top: 5rem;
+}
+
+body main .testimonials .first h5 {
+  font-size: 1rem;
+  letter-spacing: 5px;
+  color: darkgray;
+  font-weight: 900;
+}
+
+body main .testimonials .second {
+  padding: 2rem 1rem;
+}
+
+body main .testimonials .second .client {
+  padding-bottom: 2rem;
+}
+
+body main .testimonials .second #client-review {
+  color: #787878;
+  font-size: 1.1rem;
+  line-height: 1.65;
+}
+
+body main .testimonials .second #client-name {
+  font-family: "Fraunces", serif;
+  color: #00234b;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+body main .testimonials .second #client-position {
+  font-size: 0.8rem;
+  color: #b9b9b9;
+}
+
+body footer {
+  background-color: #7bccbb;
+}
+
+body footer .logo img {
+  width: 60%;
+}
+
+body footer .links {
+  color: #458c7e;
+  font-size: 1.1rem;
+}
+
+body footer .links :hover {
+  color: white;
+}
+/*# sourceMappingURL=mobile-style.css.map */

@@ -1,0 +1,214 @@
+@import './variables';
+@import './margins';
+
+body {
+
+    margin: 0 auto;
+    text-align: center;
+    font-family: $primaryFont;
+
+    #mobile-img {
+        display: none;
+    }
+
+    #sec-font {
+        font-family: $secondaryFont;
+    }
+
+    height: max-content;
+
+    header {
+
+        .position-absolute {
+            position: absolute;
+        }
+
+        .first {
+
+            padding-top: 2.5rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+
+            .menu {
+                
+                ul {
+                    list-style: none;
+                
+                    li {
+                        padding-left: 3rem;
+                        display: inline-block;
+                        
+                        #list-font {
+                            color: white;
+                            font-size: 1rem;
+                            font-weight: 400;
+                        }
+    
+                        #contact {
+                            font-family: $secondaryFont;
+                            padding: 16px 24px;
+                            background-color: white;
+                            font-size: 0.9rem;
+                            border-radius: 50px;
+                            margin-top: 2rem;
+                        }
+    
+                        #contact:hover {
+                            background-color: rgba(188, 234, 255, 0.49);
+                            color: white;
+                        }
+                    }
+                }
+    
+            }
+    
+        } //end of first row
+
+        .second {
+
+            padding-top: 10rem;
+            padding-bottom: 6rem;
+
+            h1 {
+                font-weight: 900;
+                font-size: 3rem;
+                color: white;
+                letter-spacing: 12px;
+            }
+
+        } //end of second row
+
+    } //end of header
+
+    main {
+
+        .intro {
+
+            .catchphrase {
+            
+                text-align: left;
+
+                .subtitle {
+                    font-weight: 900; 
+                    font-size: 2.5rem;
+                }
+    
+                #paragraph {
+                    color: darkgray;
+                    font-size: 1rem;
+                }
+    
+            }
+
+            .learnmore {
+                
+                font-size: 1rem;
+                color: black; 
+                font-weight: 900;
+                letter-spacing: 2px;
+                text-decoration-thickness: 6px;
+                text-underline-offset: -0.15em;
+                
+            }
+
+            .yellow {
+                text-decoration-color: rgb(254, 254, 164);              
+            }
+
+            .yellow:hover {
+                text-decoration-color: rgb(249, 249, 44);              
+            }
+
+            .pink {
+                text-decoration-color: rgba(252, 177, 189, 0.5); 
+            }
+
+            .pink:hover {
+                text-decoration-color: rgb(255, 105, 130); 
+            }
+
+        }
+
+        .content {
+
+            .position-relative {
+                position: relative;
+            }
+
+            .position-absolute {
+                position: absolute;
+                top: 70%;
+
+                .subtitle {
+                    font-family: $secondaryFont;
+                    font-weight: 900;
+                    font-size: 1.50rem;
+                }
+    
+                #description {
+                    font-size: 1rem;
+                    line-height: 1.5;
+                    padding-top: 1.5rem;
+                    width: 55%;
+                }
+            }
+        }
+
+        .testimonials {
+
+            .first {
+                padding-top: 80px;
+                h5 {
+                    letter-spacing: 5px;
+                    color: darkgray;
+                    font-weight: 900;
+                }
+            }
+
+            .second, .third {
+                padding: 0px 80px 40px 80px;
+            }
+
+            .client {
+                padding: 0px 15px;
+            }
+
+            #client-review {
+                color: rgb(120, 120, 120);
+                font-size: 1.25rem;
+                line-height: 1.45;
+                font-weight: 700;
+            }
+
+            #client-name {
+                font-family: $secondaryFont;
+                color: rgb(0, 35, 75);
+                font-weight: 900;
+                font-size: 1.25rem;
+            }
+
+            #client-position {
+                font-size: 0.85rem;
+                color: rgb(185, 185, 185);
+            }
+
+        }
+        
+    }
+
+    footer {    
+
+        background-color: hsl(168, 44%, 64%);
+        margin: 0;
+
+        .links {
+            color: hsl(168, 34%, 41%);
+            font-size: 0.8rem;
+            :hover {
+                color: white;
+            }
+        }
+        
+    }
+
+}         

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" media="screen and (min-device-width: 280px) and (max-device-width: 450px)" href="/apps/scss/mobile-style.css" />
+    <link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="/apps/scss/desktop-style.css" />
+    
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  </head>
+
+  <body class="container-fluid">
+
+    <header class="row">
+
+      <img src="/images/desktop/image-header.jpg" alt="" style="position: relative;" id="desktop-img">
+      <img src="/images/mobile/image-header.jpg" alt="" style="position: relative;" id="mobile-img">
+
+      <div class="position-absolute">
+        <div class="row row-cols-2 first">
+      
+          <div class="col text-start">
+            <img src="./images/logo.svg" alt="">
+          </div>
+  
+          <div class="col text-end hamburger" id="mobile-img">
+            <img src="/images/icon-hamburger.svg" alt="icon-hamburger" id="position-absolute">
+
+            <div class="menu" id="mobile-img">
+
+              <ul id="info">
+                <li><a href="#" id="list-font">About</a></li>
+                <li><a href="#" id="list-font">Services</a></li>
+                <li><a href="#" id="list-font">Projects</a></li>
+              </ul>
+
+              <ul id="contact-bttn">
+                <li><a href="#" id="contact">CONTACT</a></li>
+              </ul>
+
+            </div>   
+
+          </div>
+  
+          <div class="col text-end menu" id="desktop-img">
+            <ul id="info">
+              <li><a href="#" id="list-font">About</a></li>
+              <li><a href="#" id="list-font">Services</a></li>
+              <li><a href="#" id="list-font">Projects</a></li>
+              <li><a href="#" id="contact">CONTACT</a></li>
+            </ul>
+          </div>
+    
+        </div> <!--end of 1st row-->
+  
+        <div class="row second text-center align-items-center">
+          <div class="col-12">
+            <h1 id="sec-font">WE ARE CREATIVES</h1>
+          </div>
+        </div> <!--end of 2nd row-->
+  
+        <div class="row third">
+          <div class="col">
+            <img src="/images/icon-arrow-down.svg" alt="arrow-down" id="arrow">
+          </div>
+        </div> <!--end of 3rd row-->
+  
+      </div>
+
+    </header>
+
+    <main class="row">
+
+      <div class="row row-cols-1 row-cols-sm-2 d-flex flex-row-reverse intro"> <!--yellow-->
+
+        <div class="col">
+          <picture>
+            <img src="/images/desktop/image-transform.jpg" alt="transform" width="100%" id="desktop-img">
+            <img src="/images/mobile/image-transform.jpg" alt="transform" width="100%" id="mobile-img">
+          </picture>
+        </div>
+
+        <div class="col my-lg-auto catchphrase">
+
+          <div class="row justify-content-center">
+            <h2 class="col-lg-6 subtitle" id="sec-font">Transform your brand</h2>
+          </div>
+          <div class="row justify-content-center">
+            <p class="col-lg-6 py-4" id="paragraph">
+              We are a full-service creative agency specializing in helping brands grow fast.
+              Engage your clients through compelling visuals that do most of the marketing for you.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="offset-lg-3">
+              <a href="#" class="learnmore yellow" id="sec-font">
+                <span style="color: white;">.</span>
+                  LEARN MORE
+                <span style="color: white;">.</span>
+              </a>  
+            </div>
+          </div>  
+
+        </div>
+      </div> <!--end of section one-transform-->
+
+      <div class="row row-cols-1 row-cols-sm-2 d-flex intro"> <!--second pic-->
+
+        <div class="col">
+          <picture>
+            <img src="/images/mobile/image-stand-out.jpg" alt="stand-out" width="100%" id="mobile-img">
+            <img src="/images/desktop/image-stand-out.jpg" alt="stand-out" width="100%" id="desktop-img">    
+          </picture>
+        </div>
+        
+        <div class="col my-lg-auto catchphrase">
+
+          <div class="row justify-content-center">
+            <h2 class="col-lg-6 subtitle" id="sec-font">Stand out to the right audience</h2>
+          </div>
+
+          <div class="row justify-content-center">
+            <p class="col-lg-6 py-4" id="paragraph">
+              Using a collaborative formula of designers, researchers, photographers, videographers,
+              and copywriters, we’ll build and extend your brand in digital places.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="offset-lg-3">
+              <a href="#" class="learnmore pink" id="sec-font">
+                <span style="color: white;">.</span>
+                  LEARN MORE
+                <span style="color: white;">.</span>
+              </a>  
+            </div>
+          </div>  
+
+        </div>
+
+      </div> <!--end of section one-audience-->
+
+      <div class="row row-cols-1 row-cols-sm-2 content">
+
+        <div class="col position-relative">
+
+          <img src="/images/mobile/image-graphic-design.jpg" alt="graphic-design" width="100%" id="mobile-img">
+          <img src="/images/desktop/image-graphic-design.jpg" alt="graphic-design" width="100%" id="desktop-img">
+
+          <div class="row justify-content-center position-absolute" style="color: hsl(167, 40%, 24%);">
+            
+            <div class="row">
+              <p class="col m-lg-0 subtitle">Graphic Design</p>
+            </div>
+
+            <div class="row" id="description">
+              <p class="col px-4">
+                Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+              </p>  
+            </div>
+
+          </div> <!--end of position-absolute-->
+
+        </div> <!--end of col: graphic design-->
+
+        <div class="col position-relative">
+
+          <img src="/images/mobile/image-photography.jpg" alt="photography" width="100%" id="mobile-img">
+          <img src="/images/desktop/image-photography.jpg" alt="photography" width="100%" id="desktop-img">
+
+          <div class="row justify-content-center position-absolute" style="color: hsl(198, 62%, 26%)";>
+
+            <div class="row">
+              <p class="col m-lg-0 subtitle">Photography</p>
+            </div>
+
+            <div class="row" id="description">
+
+              <p class="col px-4">
+                Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+              </p>
+
+            </div>
+          
+          </div> <!--end of row: position-absolute-->
+        </div> <!--end of col: position-relative-->
+
+      </div> <!--end of row section-two-->
+    
+      <div class="row testimonials px-4 py-lg-5 my-lg-5">
+
+        <div class="row first pb-sm-1 pb-lg-5"> <!--1st row: title-->
+          <div class="col">
+            <h5 id="sec-font">CLIENT TESTIMONIALS</h5>
+          </div>
+        </div> <!--end of 1st row-->
+
+        <div class="row second"> <!--2nd row: client review-->
+
+          <div class="col-sm-12 col-lg-4 emily client">
+            <figure class="p-4 mb-1">
+              <img src="/images/image-emily.jpg" alt="emily" style="border-radius: 100%; width: 25%;">
+            </figure>
+            <div class="pb-lg-4">
+              <p class="pb-3" id="client-review">
+                We put our trust in Sunnyside and they delivered, 
+                making sure our needs were met and deadlines were always hit.  
+              </p>
+            </div>
+            <div class="p-0" id="mobile-img">
+              <p class="mb-1" id="client-name">Emily R.</p>
+              <p id="client-position">Marketing Director</p>  
+            </div>
+          </div> <!--end of emily-->
+
+          <div class="col-sm-12 col-lg-4 thomas client">
+            <figure class="p-4 mb-1">
+              <img src="/images/image-thomas.jpg" alt="thomas" style="border-radius: 100%; width: 25%;">
+            </figure>
+            <div class="pb-lg-4">
+              <p class="pb-3" id="client-review">
+                Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success 
+                made it a satisfying and enjoyable experience.
+              </p>  
+            </div>
+            <div class="p-0" id="mobile-img">
+              <p class="mb-1" id="client-name">Thomas S.</p>
+              <p id="client-position">Chief Operating Officer</p>
+            </div>
+          </div> <!--end of thomas-->
+
+          <div class="col-sm-12 col-lg-4 jennie client">
+            <figure class="p-4 mb-1">
+              <img src="/images/image-jennie.jpg" alt="jennie" style="border-radius: 100%; width: 25%;">
+            </figure>
+            <div class="pb-lg-4">
+              <p class="pb-3" id="client-review">
+                Incredible end result! Our sales increased over 400% when we worked with Sunnyside. 
+                Highly recommended!
+              </p>
+            </div>
+            <div class="p-0" id="mobile-img">
+              <p class="mb-1" id="client-name">Jennie F.</p>
+              <p id="client-position">Business Owner</p>
+            </div>
+          </div> <!--end of jennie-->
+
+        </div> <!--end of second row-->
+
+        <div class="row third" id="desktop-img"> <!--3rd row: client position-->
+
+          <div class="col-4">
+            <p class="mb-1" id="client-name">Emily R.</p>
+            <p id="client-position">Marketing Director</p>
+          </div>
+
+          <div class="col-4">
+            <p class="mb-1" id="client-name">Thomas S.</p>
+            <p id="client-position">Chief Operating Officer</p>
+          </div>
+
+          <div class="col-4">
+            <p class="mb-1" id="client-name">Jennie F.</p>
+            <p id="client-position">Business Owner</p>
+          </div>
+
+        </div> <!--end of third row-->
+
+      </div> <!--end of row: testimonials-->
+
+      <div class="row row-cols-2 row-cols-sm-4 visuals">
+
+        <div class="col">
+          <img src="/images/mobile/image-gallery-milkbottles.jpg" alt="milkbottles" width="100%">
+        </div>
+        <div class="col">
+          <img src="/images/mobile/image-gallery-orange.jpg" alt="orange" width="100%">
+        </div>
+        <div class="col">
+          <img src="/images/mobile/image-gallery-cone.jpg" alt="cone" width="100%">
+        </div>
+        <div class="col">
+          <img src="/images/mobile/image-gallery-sugar-cubes.jpg" alt="sugarcubes" width="100%">
+        </div>
+
+      </div> <!--end of row: visuals-->
+    
+    </main>
+
+    <footer class="row">
+
+      <div class="row justify-content-center pt-5 p-4">
+        <div class="col logo">
+          <img src="/images/logo.svg" alt="" 
+          style="filter: invert(52%) sepia(9%) saturate(1928%) hue-rotate(118deg) brightness(91%) contrast(86%);">
+        </div>
+      </div>
+
+      <div class="row justify-content-center p-lg-0 m-lg-1 py-sm-5 mb-sm-4 links">
+        <div class="col col-lg-1 px-1">About</div>
+        <div class="col col-lg-1 px-1">Services</div>
+        <div class="col col-lg-1 px-1">Projects</div>
+      </div>
+
+      <div class="row py-5">
+
+        <div class="col-4 offset-4">
+          <div class="row justify-content-center">
+            <div class="col-auto px-2">
+              <img src="/images/icon-facebook.svg" alt="" width="16px">
+            </div>
+            <div class="col-auto px-2">
+              <img src="/images/icon-instagram.svg" alt="" width="16px">
+            </div>
+            <div class="col-auto px-2">
+              <img src="/images/icon-twitter.svg" alt="" width="16px">
+            </div>
+            <div class="col-auto px-2">
+              <img src="/images/icon-pinterest.svg" alt="" width="16px">
+            </div>    
+          </div>
+        </div>
+
+      </div> <!--end of row icons-->
+      
+    </footer>
+
+    <div class="attribution p-5">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      <br>
+      Coded by <a href="https://github.com/hypyeon">Hayeong Pyeon</a>
+    </div>
+
+    <script src="/apps/js/script.js"></script>
+  </body>
+</html>
