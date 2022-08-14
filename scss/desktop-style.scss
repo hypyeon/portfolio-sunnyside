@@ -30,7 +30,7 @@ body {
             padding-right: 4rem;
 
             #logo {
-                height: 2rem;
+                height: 2.5rem;
             }
 
             .menu {
@@ -44,14 +44,14 @@ body {
                         
                         #list-font {
                             color: white;
-                            font-size: 1.5rem;
+                            font-size: 1.25rem;
                         }
     
                         #contact {
                             font-family: $secondaryFont;
                             padding: 24px 32px;
                             background-color: white;
-                            font-size: 1.20rem;
+                            font-size: 1.15rem;
                             border-radius: 50px;
                             margin-top: 2rem;
                         }
@@ -74,7 +74,7 @@ body {
 
             h1 {
                 font-weight: 1200;
-                font-size: 6rem;
+                font-size: 5rem;
                 color: white;
                 letter-spacing: 14px;
             }
@@ -82,7 +82,7 @@ body {
         } //end of second row
 
         .third {
-            height: 6rem;
+            height: 8rem;
         }
 
     } //end of header
@@ -97,12 +97,12 @@ body {
 
                 .subtitle {
                     font-weight: 900; 
-                    font-size: 4rem;
+                    font-size: 3.25rem;
                 }
     
                 #paragraph {
                     color: darkgray;
-                    font-size: 2rem;
+                    font-size: 1.75rem;
                 }
     
             }
@@ -153,7 +153,7 @@ body {
                 }
     
                 #description {
-                    font-size: 2rem;
+                    font-size: 1.75rem;
                     line-height: 1.5;
                     padding-top: 1.5rem;
                     width: 55%;
@@ -162,6 +162,9 @@ body {
         }
 
         .testimonials {
+
+            padding-top: 3rem;
+            padding-bottom: 3rem;
 
             .first {
                 padding-top: 80px;
@@ -174,11 +177,11 @@ body {
             }
 
             .second, .third {
-                padding: 0px 80px 40px 80px;
+                padding: 0px 90px 40px 90px;
             }
 
             .client {
-                padding: 0px 15px;
+                padding: 0px 20px;
             }
 
             #client-review {
@@ -208,8 +211,10 @@ body {
 
         background-color: hsl(168, 44%, 64%);
         margin: 0;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+
+        .ptop {
+            padding-top: 3rem;
+        }
 
         .logo {
             img {
@@ -229,6 +234,7 @@ body {
         .icons {
 
             padding-top: 2rem;
+            padding-bottom: 3rem;
 
             img {
                 width: 1.75rem;
