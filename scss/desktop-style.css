@@ -226,4 +226,8 @@ body footer .links {
 body footer .links :hover {
   color: white;
 }
+
+body footer .icons img {
+  width: 1.5rem;
+}
 /*# sourceMappingURL=desktop-style.css.map */
