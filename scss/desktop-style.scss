@@ -25,7 +25,7 @@ body {
 
         .first {
 
-            padding-top: 5rem;
+            padding-top: 4.5rem;
             padding-left: 4rem;
             padding-right: 4rem;
 
@@ -69,11 +69,11 @@ body {
 
         .second {
 
-            padding-top: 18rem;
+            padding-top: 16rem;
             padding-bottom: 8rem;
 
             h1 {
-                font-size: 5rem;
+                font-size: 4rem;
                 color: white;
                 letter-spacing: 14px;
             }
@@ -82,7 +82,7 @@ body {
 
         .third {
             img {
-                height: 6rem;
+                height: 12rem;
             }
         }
 
@@ -103,17 +103,17 @@ body {
     
                 #paragraph {
                     color: darkgray;
-                    font-size: 1.75rem;
+                    font-size: 1.5rem;
                 }
 
                 .learnmore {
                 
-                    font-size: 1.75rem;
+                    font-size: 1.5rem;
                     color: black; 
                     font-weight: 900;
                     letter-spacing: 2px;
                     text-decoration-thickness: 6px;
-                    text-underline-offset: -0.15em;
+                    text-underline-offset: -0.3em;
                     
                 }
     
@@ -164,17 +164,20 @@ body {
 
         .testimonials {
 
-            padding-top: 5rem;
-            padding-bottom: 5rem;
+            padding-top: 32px;
+            padding-bottom: 32px;
 
             .first {
+
                 padding-top: 80px;
+
                 h5 {
                     font-size: 1.75rem;
                     letter-spacing: 8px;
                     color: darkgray;
                     font-weight: 900;
                 }
+
             }
 
             .second, .third {
@@ -211,11 +214,7 @@ body {
     footer {    
 
         background-color: hsl(168, 44%, 64%);
-        margin: 0;
-
-        .ptop {
-            padding-top: 3rem;
-        }
+        margin: 16px 0 16px 0;
 
         .logo {
             img {
