@@ -25,9 +25,9 @@ body {
 
         .first {
 
-            padding-top: 2.5rem;
-            padding-left: 3rem;
-            padding-right: 3rem;
+            padding-top: 3rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
 
             .menu {
                 
@@ -40,7 +40,7 @@ body {
                         
                         #list-font {
                             color: white;
-                            font-size: 1rem;
+                            font-size: 1.5rem;
                             font-weight: 400;
                         }
     
@@ -48,7 +48,7 @@ body {
                             font-family: $secondaryFont;
                             padding: 16px 24px;
                             background-color: white;
-                            font-size: 0.9rem;
+                            font-size: 1.3rem;
                             border-radius: 50px;
                             margin-top: 2rem;
                         }
@@ -66,14 +66,14 @@ body {
 
         .second {
 
-            padding-top: 10rem;
+            padding-top: 14rem;
             padding-bottom: 6rem;
 
             h1 {
                 font-weight: 900;
-                font-size: 3rem;
+                font-size: 4rem;
                 color: white;
-                letter-spacing: 12px;
+                letter-spacing: 14px;
             }
 
         } //end of second row
@@ -142,11 +142,11 @@ body {
                 .subtitle {
                     font-family: $secondaryFont;
                     font-weight: 900;
-                    font-size: 1.50rem;
+                    font-size: 2.5rem;
                 }
     
                 #description {
-                    font-size: 1rem;
+                    font-size: 1.25rem;
                     line-height: 1.5;
                     padding-top: 1.5rem;
                     width: 55%;
@@ -159,6 +159,7 @@ body {
             .first {
                 padding-top: 80px;
                 h5 {
+                    font-size: 2.25rem;
                     letter-spacing: 5px;
                     color: darkgray;
                     font-weight: 900;
@@ -203,7 +204,7 @@ body {
 
         .links {
             color: hsl(168, 34%, 41%);
-            font-size: 0.8rem;
+            font-size: 1.25rem;
             :hover {
                 color: white;
             }

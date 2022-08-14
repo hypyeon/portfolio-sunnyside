@@ -48,9 +48,9 @@ body header .position-absolute {
 }
 
 body header .first {
-  padding-top: 2.5rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-top: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 body header .first .menu ul {
@@ -64,7 +64,7 @@ body header .first .menu ul li {
 
 body header .first .menu ul li #list-font {
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -72,7 +72,7 @@ body header .first .menu ul li #contact {
   font-family: "Fraunces", serif;
   padding: 16px 24px;
   background-color: white;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   border-radius: 50px;
   margin-top: 2rem;
 }
@@ -83,15 +83,15 @@ body header .first .menu ul li #contact:hover {
 }
 
 body header .second {
-  padding-top: 10rem;
+  padding-top: 14rem;
   padding-bottom: 6rem;
 }
 
 body header .second h1 {
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 4rem;
   color: white;
-  letter-spacing: 12px;
+  letter-spacing: 14px;
 }
 
 body main .intro .catchphrase {
@@ -149,11 +149,11 @@ body main .content .position-absolute {
 body main .content .position-absolute .subtitle {
   font-family: "Fraunces", serif;
   font-weight: 900;
-  font-size: 1.50rem;
+  font-size: 2.5rem;
 }
 
 body main .content .position-absolute #description {
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.5;
   padding-top: 1.5rem;
   width: 55%;
@@ -164,6 +164,7 @@ body main .testimonials .first {
 }
 
 body main .testimonials .first h5 {
+  font-size: 2.25rem;
   letter-spacing: 5px;
   color: darkgray;
   font-weight: 900;
@@ -203,7 +204,7 @@ body footer {
 
 body footer .links {
   color: #458c7e;
-  font-size: 0.8rem;
+  font-size: 1.25rem;
 }
 
 body footer .links :hover {
