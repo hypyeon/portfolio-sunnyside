@@ -53,6 +53,10 @@ body header .first {
   padding-right: 4rem;
 }
 
+body header .first #logo {
+  height: 2rem;
+}
+
 body header .first .menu ul {
   list-style: none;
 }
@@ -72,7 +76,7 @@ body header .first .menu ul li #contact {
   font-family: "Fraunces", serif;
   padding: 16px 24px;
   background-color: white;
-  font-size: 1.3rem;
+  font-size: 1.20rem;
   border-radius: 50px;
   margin-top: 2rem;
 }
@@ -83,15 +87,19 @@ body header .first .menu ul li #contact:hover {
 }
 
 body header .second {
-  padding-top: 14rem;
+  padding-top: 18rem;
   padding-bottom: 6rem;
 }
 
 body header .second h1 {
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: white;
   letter-spacing: 14px;
+}
+
+body header .third {
+  height: 4rem;
 }
 
 body main .intro .catchphrase {
@@ -200,6 +208,14 @@ body main .testimonials #client-position {
 body footer {
   background-color: #7bccbb;
   margin: 0;
+}
+
+body footer .logo {
+  padding-bottom: 16px;
+}
+
+body footer .logo img {
+  height: 2.5rem;
 }
 
 body footer .links {

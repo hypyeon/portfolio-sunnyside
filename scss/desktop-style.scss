@@ -29,6 +29,10 @@ body {
             padding-left: 4rem;
             padding-right: 4rem;
 
+            #logo {
+                height: 2rem;
+            }
+
             .menu {
                 
                 ul {
@@ -48,7 +52,7 @@ body {
                             font-family: $secondaryFont;
                             padding: 16px 24px;
                             background-color: white;
-                            font-size: 1.3rem;
+                            font-size: 1.20rem;
                             border-radius: 50px;
                             margin-top: 2rem;
                         }
@@ -66,17 +70,21 @@ body {
 
         .second {
 
-            padding-top: 14rem;
+            padding-top: 18rem;
             padding-bottom: 6rem;
 
             h1 {
                 font-weight: 900;
-                font-size: 4rem;
+                font-size: 3.5rem;
                 color: white;
                 letter-spacing: 14px;
             }
 
         } //end of second row
+
+        .third {
+            height: 4rem;
+        }
 
     } //end of header
 
@@ -201,6 +209,13 @@ body {
 
         background-color: hsl(168, 44%, 64%);
         margin: 0;
+
+        .logo {
+            img {
+                height: 2.5rem;
+            }
+            padding-bottom: 16px;
+        }
 
         .links {
             color: hsl(168, 34%, 41%);
