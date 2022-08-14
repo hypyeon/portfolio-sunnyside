@@ -69,12 +69,11 @@ body header .first .menu ul li {
 body header .first .menu ul li #list-font {
   color: white;
   font-size: 1.5rem;
-  font-weight: 400;
 }
 
 body header .first .menu ul li #contact {
   font-family: "Fraunces", serif;
-  padding: 16px 24px;
+  padding: 24px 32px;
   background-color: white;
   font-size: 1.20rem;
   border-radius: 50px;
@@ -88,18 +87,18 @@ body header .first .menu ul li #contact:hover {
 
 body header .second {
   padding-top: 18rem;
-  padding-bottom: 6rem;
+  padding-bottom: 8rem;
 }
 
 body header .second h1 {
-  font-weight: 900;
-  font-size: 3.5rem;
+  font-weight: 1200;
+  font-size: 6rem;
   color: white;
   letter-spacing: 14px;
 }
 
 body header .third {
-  height: 4rem;
+  height: 6rem;
 }
 
 body main .intro .catchphrase {
@@ -108,16 +107,16 @@ body main .intro .catchphrase {
 
 body main .intro .catchphrase .subtitle {
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 body main .intro .catchphrase #paragraph {
   color: darkgray;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 body main .intro .learnmore {
-  font-size: 1rem;
+  font-size: 1.75rem;
   color: black;
   font-weight: 900;
   letter-spacing: 2px;
@@ -151,7 +150,7 @@ body main .content .position-relative {
 
 body main .content .position-absolute {
   position: absolute;
-  top: 70%;
+  top: 65%;
 }
 
 body main .content .position-absolute .subtitle {
@@ -161,7 +160,7 @@ body main .content .position-absolute .subtitle {
 }
 
 body main .content .position-absolute #description {
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: 1.5;
   padding-top: 1.5rem;
   width: 55%;
@@ -172,8 +171,8 @@ body main .testimonials .first {
 }
 
 body main .testimonials .first h5 {
-  font-size: 2.25rem;
-  letter-spacing: 5px;
+  font-size: 1.75rem;
+  letter-spacing: 8px;
   color: darkgray;
   font-weight: 900;
 }
@@ -188,8 +187,8 @@ body main .testimonials .client {
 
 body main .testimonials #client-review {
   color: #787878;
-  font-size: 1.25rem;
-  line-height: 1.45;
+  font-size: 2rem;
+  line-height: 1.75;
   font-weight: 700;
 }
 
@@ -197,17 +196,19 @@ body main .testimonials #client-name {
   font-family: "Fraunces", serif;
   color: #00234b;
   font-weight: 900;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 
 body main .testimonials #client-position {
-  font-size: 0.85rem;
+  font-size: 1.5rem;
   color: #b9b9b9;
 }
 
 body footer {
   background-color: #7bccbb;
   margin: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 body footer .logo {
@@ -220,14 +221,18 @@ body footer .logo img {
 
 body footer .links {
   color: #458c7e;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 body footer .links :hover {
   color: white;
 }
 
+body footer .icons {
+  padding-top: 2rem;
+}
+
 body footer .icons img {
-  width: 1.5rem;
+  width: 1.75rem;
 }
 /*# sourceMappingURL=desktop-style.css.map */

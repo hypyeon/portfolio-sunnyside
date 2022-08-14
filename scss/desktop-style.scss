@@ -45,12 +45,11 @@ body {
                         #list-font {
                             color: white;
                             font-size: 1.5rem;
-                            font-weight: 400;
                         }
     
                         #contact {
                             font-family: $secondaryFont;
-                            padding: 16px 24px;
+                            padding: 24px 32px;
                             background-color: white;
                             font-size: 1.20rem;
                             border-radius: 50px;
@@ -71,11 +70,11 @@ body {
         .second {
 
             padding-top: 18rem;
-            padding-bottom: 6rem;
+            padding-bottom: 8rem;
 
             h1 {
-                font-weight: 900;
-                font-size: 3.5rem;
+                font-weight: 1200;
+                font-size: 6rem;
                 color: white;
                 letter-spacing: 14px;
             }
@@ -83,7 +82,7 @@ body {
         } //end of second row
 
         .third {
-            height: 4rem;
+            height: 6rem;
         }
 
     } //end of header
@@ -98,19 +97,19 @@ body {
 
                 .subtitle {
                     font-weight: 900; 
-                    font-size: 2.5rem;
+                    font-size: 4rem;
                 }
     
                 #paragraph {
                     color: darkgray;
-                    font-size: 1rem;
+                    font-size: 2rem;
                 }
     
             }
 
             .learnmore {
                 
-                font-size: 1rem;
+                font-size: 1.75rem;
                 color: black; 
                 font-weight: 900;
                 letter-spacing: 2px;
@@ -145,7 +144,7 @@ body {
 
             .position-absolute {
                 position: absolute;
-                top: 70%;
+                top: 65%;
 
                 .subtitle {
                     font-family: $secondaryFont;
@@ -154,7 +153,7 @@ body {
                 }
     
                 #description {
-                    font-size: 1.25rem;
+                    font-size: 2rem;
                     line-height: 1.5;
                     padding-top: 1.5rem;
                     width: 55%;
@@ -167,8 +166,8 @@ body {
             .first {
                 padding-top: 80px;
                 h5 {
-                    font-size: 2.25rem;
-                    letter-spacing: 5px;
+                    font-size: 1.75rem;
+                    letter-spacing: 8px;
                     color: darkgray;
                     font-weight: 900;
                 }
@@ -184,8 +183,8 @@ body {
 
             #client-review {
                 color: rgb(120, 120, 120);
-                font-size: 1.25rem;
-                line-height: 1.45;
+                font-size: 2rem;
+                line-height: 1.75;
                 font-weight: 700;
             }
 
@@ -193,11 +192,11 @@ body {
                 font-family: $secondaryFont;
                 color: rgb(0, 35, 75);
                 font-weight: 900;
-                font-size: 1.25rem;
+                font-size: 1.75rem;
             }
 
             #client-position {
-                font-size: 0.85rem;
+                font-size: 1.5rem;
                 color: rgb(185, 185, 185);
             }
 
@@ -209,6 +208,8 @@ body {
 
         background-color: hsl(168, 44%, 64%);
         margin: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
 
         .logo {
             img {
@@ -219,15 +220,18 @@ body {
 
         .links {
             color: hsl(168, 34%, 41%);
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             :hover {
                 color: white;
             }
         }
 
         .icons {
+
+            padding-top: 2rem;
+
             img {
-                width: 1.5rem;
+                width: 1.75rem;
             }
         }  
 
