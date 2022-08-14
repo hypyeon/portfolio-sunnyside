@@ -70,10 +70,10 @@ body {
         .second {
 
             padding-top: 16rem;
-            padding-bottom: 8rem;
+            padding-bottom: 6.5rem;
 
             h1 {
-                font-size: 4rem;
+                font-size: 3.5rem;
                 color: white;
                 letter-spacing: 14px;
             }
@@ -82,7 +82,7 @@ body {
 
         .third {
             img {
-                height: 12rem;
+                height: 10rem;
             }
         }
 
@@ -113,7 +113,7 @@ body {
                     font-weight: 900;
                     letter-spacing: 2px;
                     text-decoration-thickness: 6px;
-                    text-underline-offset: -0.3em;
+                    text-underline-offset: -0.5rem;
                     
                 }
     
@@ -157,19 +157,16 @@ body {
                     font-size: 1.5rem;
                     line-height: 1.5;
                     padding-top: 1.5rem;
-                    width: 60%;
+                    width: 58%;
                 }
             }
         }
 
         .testimonials {
 
-            padding-top: 32px;
-            padding-bottom: 32px;
-
             .first {
 
-                padding-top: 80px;
+                padding-top: 100px;
 
                 h5 {
                     font-size: 1.75rem;
@@ -181,7 +178,7 @@ body {
             }
 
             .second, .third {
-                padding: 0px 90px 40px 90px;
+                padding: 0px 90px 100px 90px;
             }
 
             .client {
@@ -214,12 +211,13 @@ body {
     footer {    
 
         background-color: hsl(168, 44%, 64%);
-        margin: 16px 0 16px 0;
+        margin: 0;
 
         .logo {
             img {
                 height: 2.5rem;
             }
+            padding-top: 48px;
             padding-bottom: 16px;
         }
 
@@ -234,7 +232,7 @@ body {
         .icons {
 
             padding-top: 2rem;
-            padding-bottom: 3rem;
+            padding-bottom: 48px;
 
             img {
                 width: 1.75rem;

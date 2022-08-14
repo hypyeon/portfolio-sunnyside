@@ -87,17 +87,17 @@ body header .first .menu ul li #contact:hover {
 
 body header .second {
   padding-top: 16rem;
-  padding-bottom: 8rem;
+  padding-bottom: 6.5rem;
 }
 
 body header .second h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: white;
   letter-spacing: 14px;
 }
 
 body header .third img {
-  height: 12rem;
+  height: 10rem;
 }
 
 body main .intro .catchphrase {
@@ -120,7 +120,7 @@ body main .intro .catchphrase .learnmore {
   font-weight: 900;
   letter-spacing: 2px;
   text-decoration-thickness: 6px;
-  text-underline-offset: -0.3em;
+  text-underline-offset: -0.5rem;
 }
 
 body main .intro .catchphrase .yellow {
@@ -162,16 +162,11 @@ body main .content .position-absolute #description {
   font-size: 1.5rem;
   line-height: 1.5;
   padding-top: 1.5rem;
-  width: 60%;
-}
-
-body main .testimonials {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  width: 58%;
 }
 
 body main .testimonials .first {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 body main .testimonials .first h5 {
@@ -182,7 +177,7 @@ body main .testimonials .first h5 {
 }
 
 body main .testimonials .second, body main .testimonials .third {
-  padding: 0px 90px 40px 90px;
+  padding: 0px 90px 100px 90px;
 }
 
 body main .testimonials .client {
@@ -210,10 +205,11 @@ body main .testimonials #client-position {
 
 body footer {
   background-color: #7bccbb;
-  margin: 16px 0 16px 0;
+  margin: 0;
 }
 
 body footer .logo {
+  padding-top: 48px;
   padding-bottom: 16px;
 }
 
@@ -232,7 +228,7 @@ body footer .links :hover {
 
 body footer .icons {
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 48px;
 }
 
 body footer .icons img {
