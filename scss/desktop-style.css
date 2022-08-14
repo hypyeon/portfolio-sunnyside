@@ -48,13 +48,13 @@ body header .position-absolute {
 }
 
 body header .first {
-  padding-top: 3rem;
+  padding-top: 5rem;
   padding-left: 4rem;
   padding-right: 4rem;
 }
 
 body header .first #logo {
-  height: 2.5rem;
+  height: 3rem;
 }
 
 body header .first .menu ul {
@@ -68,7 +68,7 @@ body header .first .menu ul li {
 
 body header .first .menu ul li #list-font {
   color: white;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 body header .first .menu ul li #contact {
@@ -91,14 +91,13 @@ body header .second {
 }
 
 body header .second h1 {
-  font-weight: 1200;
   font-size: 5rem;
   color: white;
   letter-spacing: 14px;
 }
 
-body header .third {
-  height: 8rem;
+body header .third img {
+  height: 6rem;
 }
 
 body main .intro .catchphrase {
@@ -115,7 +114,7 @@ body main .intro .catchphrase #paragraph {
   font-size: 1.75rem;
 }
 
-body main .intro .learnmore {
+body main .intro .catchphrase .learnmore {
   font-size: 1.75rem;
   color: black;
   font-weight: 900;
@@ -124,22 +123,22 @@ body main .intro .learnmore {
   text-underline-offset: -0.15em;
 }
 
-body main .intro .yellow {
+body main .intro .catchphrase .yellow {
   -webkit-text-decoration-color: #fefea4;
           text-decoration-color: #fefea4;
 }
 
-body main .intro .yellow:hover {
+body main .intro .catchphrase .yellow:hover {
   -webkit-text-decoration-color: #f9f92c;
           text-decoration-color: #f9f92c;
 }
 
-body main .intro .pink {
+body main .intro .catchphrase .pink {
   -webkit-text-decoration-color: rgba(252, 177, 189, 0.5);
           text-decoration-color: rgba(252, 177, 189, 0.5);
 }
 
-body main .intro .pink:hover {
+body main .intro .catchphrase .pink:hover {
   -webkit-text-decoration-color: #ff6982;
           text-decoration-color: #ff6982;
 }
@@ -160,15 +159,15 @@ body main .content .position-absolute .subtitle {
 }
 
 body main .content .position-absolute #description {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   padding-top: 1.5rem;
-  width: 55%;
+  width: 60%;
 }
 
 body main .testimonials {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 body main .testimonials .first {

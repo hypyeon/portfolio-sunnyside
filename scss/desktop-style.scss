@@ -25,12 +25,12 @@ body {
 
         .first {
 
-            padding-top: 3rem;
+            padding-top: 5rem;
             padding-left: 4rem;
             padding-right: 4rem;
 
             #logo {
-                height: 2.5rem;
+                height: 3rem;
             }
 
             .menu {
@@ -44,7 +44,7 @@ body {
                         
                         #list-font {
                             color: white;
-                            font-size: 1.25rem;
+                            font-size: 1.5rem;
                         }
     
                         #contact {
@@ -73,7 +73,6 @@ body {
             padding-bottom: 8rem;
 
             h1 {
-                font-weight: 1200;
                 font-size: 5rem;
                 color: white;
                 letter-spacing: 14px;
@@ -82,7 +81,9 @@ body {
         } //end of second row
 
         .third {
-            height: 8rem;
+            img {
+                height: 6rem;
+            }
         }
 
     } //end of header
@@ -104,34 +105,34 @@ body {
                     color: darkgray;
                     font-size: 1.75rem;
                 }
+
+                .learnmore {
+                
+                    font-size: 1.75rem;
+                    color: black; 
+                    font-weight: 900;
+                    letter-spacing: 2px;
+                    text-decoration-thickness: 6px;
+                    text-underline-offset: -0.15em;
+                    
+                }
     
-            }
-
-            .learnmore {
-                
-                font-size: 1.75rem;
-                color: black; 
-                font-weight: 900;
-                letter-spacing: 2px;
-                text-decoration-thickness: 6px;
-                text-underline-offset: -0.15em;
-                
-            }
-
-            .yellow {
-                text-decoration-color: rgb(254, 254, 164);              
-            }
-
-            .yellow:hover {
-                text-decoration-color: rgb(249, 249, 44);              
-            }
-
-            .pink {
-                text-decoration-color: rgba(252, 177, 189, 0.5); 
-            }
-
-            .pink:hover {
-                text-decoration-color: rgb(255, 105, 130); 
+                .yellow {
+                    text-decoration-color: rgb(254, 254, 164);              
+                }
+    
+                .yellow:hover {
+                    text-decoration-color: rgb(249, 249, 44);              
+                }
+    
+                .pink {
+                    text-decoration-color: rgba(252, 177, 189, 0.5); 
+                }
+    
+                .pink:hover {
+                    text-decoration-color: rgb(255, 105, 130); 
+                }    
+    
             }
 
         }
@@ -153,18 +154,18 @@ body {
                 }
     
                 #description {
-                    font-size: 1.75rem;
+                    font-size: 1.5rem;
                     line-height: 1.5;
                     padding-top: 1.5rem;
-                    width: 55%;
+                    width: 60%;
                 }
             }
         }
 
         .testimonials {
 
-            padding-top: 3rem;
-            padding-bottom: 3rem;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
 
             .first {
                 padding-top: 80px;
