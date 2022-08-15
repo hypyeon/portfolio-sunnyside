@@ -120,7 +120,7 @@ body main .intro .catchphrase .learnmore {
   font-weight: 900;
   letter-spacing: 2px;
   text-decoration-thickness: 6px;
-  text-underline-offset: 0.15rem;
+  text-underline-offset: 0.05rem;
 }
 
 body main .intro .catchphrase .yellow {
