@@ -113,7 +113,7 @@ body {
                     font-weight: 900;
                     letter-spacing: 2px;
                     text-decoration-thickness: 6px;
-                    text-underline-offset: 1rem;
+                    text-underline-offset: 0.5rem;
                     
                 }
     
@@ -166,19 +166,18 @@ body {
 
             .first {
 
-                padding-top: 100px;
-
                 h5 {
                     font-size: 1.75rem;
                     letter-spacing: 8px;
                     color: darkgray;
                     font-weight: 900;
+                    padding-top: 100px;
                 }
 
             }
 
             .second, .third {
-                padding: 0px 90px 100px 90px;
+                padding: 0px 90px 60px 90px;
             }
 
             .client {
@@ -202,6 +201,7 @@ body {
             #client-position {
                 font-size: 1.5rem;
                 color: rgb(185, 185, 185);
+                padding-bottom: 100px;
             }
 
         }
@@ -232,6 +232,7 @@ body {
         .icons {
             img {
                 width: 1.75rem;
+                padding-top: 24px;
                 padding-bottom: 96px;
             }
         }  

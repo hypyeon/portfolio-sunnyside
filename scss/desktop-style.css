@@ -120,7 +120,7 @@ body main .intro .catchphrase .learnmore {
   font-weight: 900;
   letter-spacing: 2px;
   text-decoration-thickness: 6px;
-  text-underline-offset: 1rem;
+  text-underline-offset: 0.5rem;
 }
 
 body main .intro .catchphrase .yellow {
@@ -165,19 +165,16 @@ body main .content .position-absolute #description {
   width: 60%;
 }
 
-body main .testimonials .first {
-  padding-top: 100px;
-}
-
 body main .testimonials .first h5 {
   font-size: 1.75rem;
   letter-spacing: 8px;
   color: darkgray;
   font-weight: 900;
+  padding-top: 100px;
 }
 
 body main .testimonials .second, body main .testimonials .third {
-  padding: 0px 90px 100px 90px;
+  padding: 0px 90px 60px 90px;
 }
 
 body main .testimonials .client {
@@ -201,6 +198,7 @@ body main .testimonials #client-name {
 body main .testimonials #client-position {
   font-size: 1.5rem;
   color: #b9b9b9;
+  padding-bottom: 100px;
 }
 
 body footer {
@@ -228,6 +226,7 @@ body footer .links :hover {
 
 body footer .icons img {
   width: 1.75rem;
+  padding-top: 24px;
   padding-bottom: 96px;
 }
 /*# sourceMappingURL=desktop-style.css.map */
