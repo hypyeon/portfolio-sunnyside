@@ -30,7 +30,7 @@ body {
             padding-right: 4rem;
 
             #logo {
-                height: 3rem;
+                height: 2.5rem;
             }
 
             .menu {
@@ -44,14 +44,14 @@ body {
                         
                         #list-font {
                             color: white;
-                            font-size: 1.5rem;
+                            font-size: 1rem;
                         }
     
                         #contact {
                             font-family: $secondaryFont;
                             padding: 24px 32px;
                             background-color: white;
-                            font-size: 1.15rem;
+                            font-size: 1.25rem;
                             border-radius: 50px;
                             margin-top: 2rem;
                         }
@@ -69,11 +69,11 @@ body {
 
         .second {
 
-            padding-top: 16rem;
-            padding-bottom: 6.5rem;
+            padding-top: 8rem;
+            padding-bottom: 8rem;
 
             h1 {
-                font-size: 3.25rem;
+                font-size: 3rem;
                 color: white;
                 letter-spacing: 14px;
             }
@@ -82,7 +82,7 @@ body {
 
         .third {
             img {
-                height: 10rem;
+                height: 7.5rem;
             }
         }
 
@@ -98,17 +98,17 @@ body {
 
                 .subtitle {
                     font-weight: 900; 
-                    font-size: 3.25rem;
+                    font-size: 2.25rem;
                 }
     
                 #paragraph {
                     color: darkgray;
-                    font-size: 1.5rem;
+                    font-size: 1rem;
                 }
 
                 .learnmore {
                 
-                    font-size: 1.5rem;
+                    font-size: 1rem;
                     color: black; 
                     font-weight: 900;
                     letter-spacing: 2px;
@@ -150,11 +150,11 @@ body {
                 .subtitle {
                     font-family: $secondaryFont;
                     font-weight: 900;
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                 }
     
                 #description {
-                    font-size: 1.6rem;
+                    font-size: 1rem;
                     line-height: 1.5;
                     padding-top: 1.5rem;
                     width: 60%;
@@ -167,7 +167,7 @@ body {
             .first {
 
                 h5 {
-                    font-size: 1.75rem;
+                    font-size: 1.25rem;
                     letter-spacing: 8px;
                     color: darkgray;
                     font-weight: 900;
@@ -187,7 +187,7 @@ body {
             #client-review {
                 color: rgb(120, 120, 120);
                 font-size: 2rem;
-                line-height: 1.75;
+                line-height: 1;
                 font-weight: 700;
             }
 
@@ -195,11 +195,11 @@ body {
                 font-family: $secondaryFont;
                 color: rgb(0, 35, 75);
                 font-weight: 900;
-                font-size: 1.75rem;
+                font-size: 1.15rem;
             }
 
             #client-position {
-                font-size: 1.5rem;
+                font-size: 0.85rem;
                 color: rgb(185, 185, 185);
                 padding-bottom: 100px;
             }
@@ -215,7 +215,7 @@ body {
 
         .logo {
             img {
-                height: 2.5rem;
+                height: 2.25rem;
             }
             padding-top: 96px;
             padding-bottom: 16px;
@@ -223,7 +223,7 @@ body {
 
         .links {
             color: hsl(168, 34%, 41%);
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             :hover {
                 color: white;
             }
@@ -231,7 +231,7 @@ body {
 
         .icons {
             img {
-                width: 1.75rem;
+                width: 1.5rem;
                 padding-top: 24px;
                 padding-bottom: 96px;
             }
