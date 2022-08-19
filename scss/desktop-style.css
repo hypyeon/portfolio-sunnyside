@@ -48,13 +48,13 @@ body header .position-absolute {
 }
 
 body header .first {
-  padding-top: 4.5rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-top: 3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 body header .first #logo {
-  height: 2.5rem;
+  height: 2rem;
 }
 
 body header .first .menu ul {
@@ -68,14 +68,14 @@ body header .first .menu ul li {
 
 body header .first .menu ul li #list-font {
   color: white;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 body header .first .menu ul li #contact {
   font-family: "Fraunces", serif;
   padding: 24px 32px;
   background-color: white;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   border-radius: 50px;
   margin-top: 2rem;
 }
@@ -86,12 +86,12 @@ body header .first .menu ul li #contact:hover {
 }
 
 body header .second {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
 }
 
 body header .second h1 {
-  font-size: 3rem;
+  font-size: 2.75rem;
   color: white;
   letter-spacing: 14px;
 }
@@ -106,21 +106,21 @@ body main .intro .catchphrase {
 
 body main .intro .catchphrase .subtitle {
   font-weight: 900;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
 }
 
 body main .intro .catchphrase #paragraph {
   color: darkgray;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 body main .intro .catchphrase .learnmore {
   font-size: 1rem;
   color: black;
   font-weight: 900;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-decoration-thickness: 6px;
-  text-underline-offset: 0.05rem;
+  text-underline-offset: 0.06rem;
 }
 
 body main .intro .catchphrase .yellow {
@@ -159,8 +159,9 @@ body main .content .position-absolute .subtitle {
 }
 
 body main .content .position-absolute #description {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.75;
   padding-top: 1.5rem;
   width: 60%;
 }
@@ -174,7 +175,7 @@ body main .testimonials .first h5 {
 }
 
 body main .testimonials .second, body main .testimonials .third {
-  padding: 0px 90px 60px 90px;
+  padding: 0px 90px 0px 90px;
 }
 
 body main .testimonials .client {
@@ -184,7 +185,7 @@ body main .testimonials .client {
 body main .testimonials #client-review {
   color: #787878;
   font-size: 1rem;
-  line-height: 1;
+  line-height: 1.6;
   font-weight: 700;
 }
 
@@ -198,7 +199,7 @@ body main .testimonials #client-name {
 body main .testimonials #client-position {
   font-size: 0.85rem;
   color: #b9b9b9;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 
 body footer {
