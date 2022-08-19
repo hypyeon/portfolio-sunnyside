@@ -115,32 +115,51 @@ body main .intro .catchphrase #paragraph {
 }
 
 body main .intro .catchphrase .learnmore {
+  text-decoration: none;
   font-size: 1rem;
   color: black;
   font-weight: 900;
-  letter-spacing: 3px;
-  text-decoration-thickness: 6px;
-  text-underline-offset: 0.06rem;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 1;
 }
 
-body main .intro .catchphrase .yellow {
-  -webkit-text-decoration-color: #fefea4;
-          text-decoration-color: #fefea4;
+body main .intro .catchphrase .yellow::after {
+  content: "";
+  position: absolute;
+  background-color: #ffff57;
+  width: 110%;
+  height: 8px;
+  top: 12px;
+  left: -8px;
+  border-radius: 30px;
+  opacity: 45%;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  z-index: -1;
 }
 
-body main .intro .catchphrase .yellow:hover {
-  -webkit-text-decoration-color: #f9f92c;
-          text-decoration-color: #f9f92c;
+body main .intro .catchphrase .pink::after {
+  content: "";
+  position: absolute;
+  background-color: #fc6bc0;
+  width: 110%;
+  height: 8px;
+  top: 12px;
+  left: -8px;
+  border-radius: 30px;
+  opacity: 45%;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  z-index: -1;
 }
 
-body main .intro .catchphrase .pink {
-  -webkit-text-decoration-color: rgba(252, 177, 189, 0.5);
-          text-decoration-color: rgba(252, 177, 189, 0.5);
+body main .intro .catchphrase .yellow:hover::after {
+  opacity: 80%;
 }
 
-body main .intro .catchphrase .pink:hover {
-  -webkit-text-decoration-color: #ff6982;
-          text-decoration-color: #ff6982;
+body main .intro .catchphrase .pink:hover::after {
+  opacity: 80%;
 }
 
 body main .content .position-relative {
