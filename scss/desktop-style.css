@@ -86,7 +86,7 @@ body header .first .menu ul li #contact:hover {
 }
 
 body header .second {
-  padding-top: 6rem;
+  padding-top: 7rem;
   padding-bottom: 4rem;
 }
 
@@ -94,6 +94,7 @@ body header .second h1 {
   font-size: 2.75rem;
   color: white;
   letter-spacing: 14px;
+  font-family: "Fraunces", serif;
 }
 
 body header .third img {

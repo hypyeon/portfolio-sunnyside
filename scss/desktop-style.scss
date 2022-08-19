@@ -1,5 +1,5 @@
-@import './variables';
-@import './margins';
+@import '/scss/variables';
+@import '/scss/margins';
 
 body {
 
@@ -69,13 +69,14 @@ body {
 
         .second {
 
-            padding-top: 6rem;
+            padding-top: 7rem;
             padding-bottom: 4rem;
 
             h1 {
                 font-size: 2.75rem;
                 color: white;
                 letter-spacing: 14px;
+                font-family: $secondaryFont;
             }
 
         } //end of second row
@@ -196,7 +197,7 @@ body {
                     letter-spacing: 8px;
                     color: darkgray;
                     font-weight: 900;
-                    padding-top: 100px;
+                    padding-top: 60px;
                 }
 
             }
@@ -211,8 +212,8 @@ body {
 
             #client-review {
                 color: rgb(120, 120, 120);
-                font-size: 1rem;
-                line-height: 1.6;
+                font-size: 1.25rem;
+                line-height: 1.75;
                 font-weight: 700;
             }
 
@@ -226,7 +227,7 @@ body {
             #client-position {
                 font-size: 0.85rem;
                 color: rgb(185, 185, 185);
-                padding-bottom: 40px;
+                padding-bottom: 60px;
             }
 
         }
