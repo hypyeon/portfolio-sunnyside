@@ -208,7 +208,7 @@ body footer {
 }
 
 body footer .logo {
-  padding-top: 96px;
+  padding-top: 48px;
   padding-bottom: 16px;
 }
 
@@ -228,6 +228,6 @@ body footer .links :hover {
 body footer .icons img {
   width: 1.5rem;
   padding-top: 24px;
-  padding-bottom: 96px;
+  padding-bottom: 48px;
 }
 /*# sourceMappingURL=desktop-style.css.map */
